@@ -1,0 +1,102 @@
+*{
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    background-color: rgb(230, 226, 221);
+}
+
+h1{
+    font-weight: 900;
+    text-align: center;
+    margin-top: -30px;
+}
+.title{
+    text-align: center;
+    margin: 0 200px 40px 200px;
+}
+.head{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+   
+}
+
+
+
+.tiles__4{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.tiles__2{
+    display: flex;
+    flex-direction: column;
+}
+
+.first__square, .second__square, .third__square, .fourth__square{
+    
+    background-color: aliceblue;
+    margin: 0 10px 10px 0;
+    height: 200px;
+    width: 400px;
+    border-radius: 10px;
+}
+.imag{
+    display: flex;
+    justify-content: flex-end;
+}
+.margin{
+    margin: 20px;
+}
+
+.blue{
+    background-color: aqua;
+    border-radius: 10px;
+    height: 6px;
+    width: 400px;
+    display: flex;
+    align-items: flex-start;
+}
+.red{
+    background-color: red;
+    border-radius: 10px;
+    height: 6px;
+    width: 400px;
+    display: flex;
+    align-items: flex-start;
+}
+.yellow{
+    background-color: yellow;
+    border-radius: 10px;
+    height: 6px;
+    width: 400px;
+    display: flex;
+    align-items: flex-start;
+}
+.black{
+    background-color: blue;
+    border-radius: 10px;
+    height: 6px;
+    width: 400px;
+    display: flex;
+    align-items: flex-start;
+}
+
+@media (max-width: 1000px) {
+    h1{
+        margin: 10px 0;
+    }
+    .title{
+        margin: 20px 0 11px 0;
+    }
+    .tiles__4{
+        display: flex;
+        flex-direction: column;
+    }
+}
